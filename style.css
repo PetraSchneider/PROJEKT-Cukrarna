@@ -30,6 +30,86 @@ html { box-sizing: border-box; }
 
 
 body {
-	margin: 0;
+	margin: 31;
 }
+header{
+	padding: 30px;
+}
+.hlavicka{
+	
+	display: flex;
+}
+	.logo{
+		width: 170px;
+		
+	}
+	.menu{
+		display: flex;
+		padding: 10px 15px;
+	}
+	a{
+		text-decoration: none;
+		
+	}
+.hero{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color:white;
+	background-image: url(images/cupcake.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+h1{
+	size: 52px;
+}
+p{
+	size: 24px;
+}
+.vitejte{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+}
+.Lp1{
+	flex-grow: 1;
+}
+.stred {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #f0f0f0;
+}
+.nabitka{
+	background-color: none;
+	display: flex;
 
+}
+	.jedna{
+		margin-right: 30px;
+		flex-basis: 25%;
+		flex-shrink: 1;
+	}
+	.dva {
+		margin-right: 30px;
+		flex-basis: 25%;
+		flex-shrink: 1;
+	}
+	.tri{
+		margin-right: 30px;
+		flex-basis: 25%;
+		flex-grow: 1;
+	}
+	.ctyri{
+		flex-basis: 25%;
+		flex-shrink: 1;
+	}
+.pristup{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-right: 30px;
+	display: flex;
+}
+footer{
+	text-align: center;
+	background-color: #303339;
+	padding: 30px;
+}
